@@ -1,0 +1,38 @@
+<div class="columns">
+  <div class="column is-two-thirds">
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title">
+          {{ product.name }}
+        </p>
+        <span class="card-header-icon">
+          <small>{{ product.price | currency:'UA' }}</small>
+        </span>
+      </header>
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img [src]="product.imagePath" [alt]="product.name">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-third">
+    <a class="button is-light" routerLink="/products">
+      <span class="icon">
+        <i class="fas fa-arrow-left"></i>
+      </span>&nbsp; Вернуться к товарам
+    </a>
+
+    <hr>
+
+    <a class="button is-success" (click)="addToCart(product)">
+      <span class="icon">
+        <i class="fas fa-cart-plus"></i>
+      </span>&nbsp; Добавить в корзину
+    </a>
+
+    <hr>
+
+
+  </div>
+</div>
