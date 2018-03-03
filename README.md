@@ -1,11 +1,11 @@
 # Shop2
 
-Local environment Linux16(Xubuntu)
-how to run my app:
-1.git clone.
-2.use Node Version Manager 8(but first of all install it)
-3.yarn or npm install
-4.ng serve
+##Local environment Linux16(Xubuntu) <br>
+##how to run my app:<br>
+##1.git clone.<br>
+##2.use Node Version Manager 8(but first of all install it)<br>
+##3.yarn or npm install<br>
+##4.ng serve<br>
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
